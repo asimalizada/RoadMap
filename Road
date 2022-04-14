@@ -1,0 +1,249 @@
+
+
+1. Algorithm
+2. OOP
+3. Project
+4. Sort algorithms
+5. Data structures
+6. Design patterns
+
+
+1. Algorithm
+	1. Work around - first Console project
+		Console class and its methods. Some signs(@, $, \t, \n)
+		
+	2. Data types
+		int, long, double...
+
+		2.1. Math methods. some operators(+,-,*,/)
+
+	3. If-else, nested if, switch
+		
+		
+		3.1. Some operators(&-&&, |-||, ! --- <,>,<=,>=, ==, !=)
+		
+		Tasks:
+		EOlymp - 108, 915, 918, 923, 1623, 
+			2044(switch ilə), 2132, 2606, 7812, 8611, 4719
+
+	4. Arrays
+		
+		Tasks:
+		EOlymp - 1609, 1658, 2860, 2862, 2863, 
+			247, 622, 4101, 5325, 6059, 
+			8255, 8532, 8533, 8544
+
+	5. Loops
+		for, while, do-while, foreach
+
+		Tasks:
+		EOlymp - 904, 907, 908, 910, 914, 
+			917, 928, 2098, 4721, 4726, 
+			4727, 5328, 5713, 6199, 7829, 
+			7830, 7841, 7842, 7843, 7849
+			125, 137, 138, 192, 248, 260, 
+			388, 446, 924, 925, 926, 1286, 
+			1601, 1610, 2059, 2130, 2131, 
+			8316, 1608, 8821, 9638, 9637, 
+			8618, 8619, 8942, 8943, 8944
+
+	6. String and its methods
+
+		Tasks:
+		1.	Mətndə  “+”  və “*” simvollarının sayını təyin  edən proqramı yazın.
+		2.	Verilmiş mətndə hərflərin və simvolların sayını tap.
+		3.	Mətndə ən uzun və ən qısa sözü tapan proqramı yazın
+		4.	Verilmiş cümlənin m hərfi ilə başlayıb n hərfi ilə bitən hissəsini ekrana çıxar.
+		5.	Mətndə üç hərfdən ibarət sözləri ekrana çıxaran proqramı yazın.
+		6.	Verilmiş cümlədə k-cı sözün uzunluğunu ekrana çıxar
+		7.	Mətndə  bütün hərfləri və simvollarını vertikal çap edən proqramı yazın.
+		8.	Mətndə bütün L və N hərflərini sayını çap edən proqramı yazın.
+		9.	Mətndə bütün aa hərf birləşmələrinin sayını çap edən proqramı yazın.
+		10.	Mətndə hərfləri sayını təyin edən proqramı yazın.
+		11.	Mətndə eyni qonşu hərflərin sayını  təyin edən proqramı yazın
+		12.	Mətndə “abc” sətrinin neçə dəfə təkrarladığını müəyyənləşdirən proqramı yazın
+		13.	Verilmiş cümlədə sözlərin sayını təyin edən proqramı yazın. 
+		14.	Verilmiş cümlədə ilk vergülə kimi olan simvolları çap  edən proqram yazın.
+		15.	Verilmiş cümlədə a hərfinin olub-olmadığını yoxlayan və sonuncunun sıra nömrəsini təyin edən proqram yazın.
+		16.	Verilmiş sözün iki tərəfdən də eyni cür oxunub-oxumadığını təyin edən proqram yazın.
+		17.	Mətndə mötərizə içərisində yazılmış cümləni ekrana çıxaran proqramı yazın.
+		18.	Mətndə tərkibində k hərfi olan sözləri ekrana çıxaran proqramı yazın.
+		19.	Verilmiş cümlədə E və e hərflərini uyğun olaraq A və a ilə əvəz edən proqramı yazın.
+		20.	Verilmiş cümlədə boşluqları “_” simvolu ilə əvəz edən proqramı yazın.
+		21.	Verilmiş cümlədə cüt yerdə duran simvolları L ilə əvəz edən proqramı yazın.
+		22.	Verilmiş cümlədə “ax” birləşməsini “ex” ilə əvəz edən proqramı yazın.
+		23.	Mətndə cümlələrin sayını  təyin edən proqramı yazın.
+		24.	Mətndə “yes” sözünü “not” ilə əvəz edən proqramı yazın
+		
+	7. Methods
+
+		7.1. Parametric, without parameter
+		7.2. Return types (void, int, ...)
+		7.3. Default parameters
+		7.4. Params keyword
+		7.5. Overloading
+		7.6. Referance, value types
+		7.7. Ref, out keywords
+		7.8. Extension methods
+
+		Tasks:
+		Verilmiş string`in telefon nömrəsi olub-olmadığını yoxlayın. (extension)
+		Format : +994XXXXXXXXX
+
+		Yazdığınız oyunda random.Next(1,1000) metodu ilə məsələn 1 ilə 1000 arası ədəd alırdıq. Bunu interval verilmədən random.GetNumber() metodu yazaraq edin.(extension) 
+
+		Ədədin sadə olub-olmadığını yoxlayan İsPrimaryNumber  adlı metod əlavə edin.(extension)
+
+	
+2. OOP
+	8. Class
+	9. Field
+	10. Property
+		auto-property, getter, setter, property-encapsulation
+	
+		Tasks:
+		1.	1. Verilmiş cümlədəki əlavə boşluqları silən metod yazın
+			2. Verilmiş cümlədəki bütün sözlərin baş hərfini uppercase edən metod yazın
+			3. Yuxarıdakı əməliyyatlardan keçən cümlələri toparlayıb bi mətn edən metod yazın. 
+
+			Bunu düşünün. OOP barədə bu gün öyrəndiz bəzi şeylər. İstifadə etməyə çalışın. 
+			Məsələn yoxlasın ki, 2ci metoddadı tutaq, 1ci metoddan keçərək filtrlənibmi? 
+			3də də 1 və 2dən keçib keçmədiyini yoxlasın falan
+
+		2. 	Bi entity class`ınız olsun. Customer, Employee, Student və sair  kimi. 
+			Propertylər arasında Gender də olsun ki, qız və ya oğlan olduğu anlaşılsın. 
+			Bu class`da bəzi metodlar olacaq.  Gələn datanı emal edib qızdırsa, adının 
+			əvvəlinə "Ms. " , oğlandırsa, "Mr. "  əlavə etməli. Başqa bi metod isə bu 
+			class`ın propertylərini oxuyub ekrana yazdırmalı
+
+	11. Interface
+	12. Inheritance
+	13. Access modifiers - Encapsulation
+	14. Virtual methods - Polymorphism
+	15. Abstract class/methods
+	16. Static class/methods
+	17. Constructors
+		17.1. Base class ctor
+		17.2. Overloading
+		17.3. Constructor injection
+	18. Lists
+		18.1. List and its methods
+		18.2. ArrayList
+		18.3. Dictionary
+	19. Exceptions
+		19.1. try-catch-finally
+		19.2. Custom exceptions
+	20. Linq
+		
+		Tasks:
+			1. Verilmiş List`dən 0 dan fərqli və cüt olan elemetləri seç. 
+			2. Verilmiş List`dən R hərfi ilə başlayan və tərkibində a hərfi olan elementlərdən ibarət List`in uzunluğu.
+			3. Verilmiş List`dəki elementlərin içərisindən 12`nin bölənlərini seç.
+			4. Verilmiş List`dəki elementlər içərisində ikirəqəmli və sadə olan ədədləri seç.
+			5. Verilmiş List`dəki A hərfi ilə başlayan və tərkibində u hərfi olan ilk sözü ekrana çıxarın.
+			6. Verilmiş List`dəki üçrəqəmli elementləri seçin.
+			7. Verilmiş ArrayListdəki double tipində olan elementləri seçin.
+			8. Verilmiş List`dəki 2 və 3-ə bölünən elementləri seçin.
+			9. Verilmiş List`dəki tək ədədləri seçin.
+			10. Verilmiş List`dəki A hərfi ilə başlayan ilk elementini bütün hərfləri böyük olmaqla ekrana çıxarın.
+	
+	21. Generics
+		Tasks:
+			1. Verdiyimiz tipi string`ə convert edən generic metod yazın. (parametr hər hansı bir dəyişən) +
+			2. Verdiyimiz tipi int`ə convert edib List`ə yığan generic metod yazın. +
+			3. Verdiyimiz tipi double`a convert edib List`ə yığan generic metod yazın. (parametr array)  +
+			4. Verdiyimiz tipdə olan elementləri ArrayList`dən ayırıb bi List`ə yığan metod yazın. (parametr ArrayList) +
+			5. Verdiyimiz tipdəki array`i List`ə çevirən generic metod yazın. (parametr array) + 
+			6. Verdiyimiz tipdəki Dictionary`nin key`lərini List`ə yığan generic metod yazın. (parametr Dictionary) +  
+			7. Verdiyimiz tipdəki Dictionary`nin value`lərini List`ə yığan generic metod yazın. (parametr Dictionary) +
+			8. Verdiyimiz tipdəki Dictionary`ni 2 ölçülü array`ə yığan generic method yazın. (parametr Dictionary -> key və value tipi eyni olmalı) +
+
+	22. Attributes
+	23. Delegations
+		23.1. Delegates
+		23.2. Action
+		23.3. Func
+	24. Events
+	25. Reflection
+
+3. Project
+	1. ORM
+		1.1. ADO.NET
+		1.2. EntityFramework
+	
+	2. Mapping
+	3. Cross cutting concerns
+		3.1. Caching
+		3.2. Logging
+		3.3. Transaction
+		3.4. 
+	4. FluentValidation
+	5. IoC containers
+		5.1. Ninject
+		5.2. Autofac
+	6. SQL
+	7. WebAPI
+	8. .NET Core
+
+4. Sort Algorithms
+	1. BubbleSort
+	2. SelectionSort
+	3. InsertionSort
+	4. QuickSort
+	5. MergeSort
+	6. HeapSort
+	7. CountingSort
+	8. RadixSort
+	9. BucketSort
+	10. ShellSort
+	11. TimSort
+	12. CombSort
+	13. PigeonholeSort
+	14. CycleSort
+	15. CocktailSort
+	16. StrandSort
+	17. BitonicSort
+	18. PancakeSort
+	19. Binary insertionSort
+	20. BogoSort or PermutationSort
+	21. GnomeSort
+	22. SleepSort
+	23. StoogeSort
+	24. TagSort
+	25. TreeSort
+	26. Cartesian Tree Sort
+	27. Odd-EvenSort or BrickSort
+
+5. Data structures
+	1. Arrays
+	2. Linked lists
+	3. Stacks
+	4. Queues
+	5. Hash Tables
+	6. Trees
+	7. Heaps
+	8. Graphs
+
+6. Design patterns
+	1. Abstract Factory
+	2. Builder
+	3. Factory Method
+	4. Prototype
+	5. Singleton
+	6. Adapter
+	7. Bridge
+	8. Composite
+	9. Decorator
+	10. Facade
+	11. Flyweight
+	12. Proxy
+	13. Chain of Responsibility
+	14. Iterator
+	15. Memento
+	16. State
+	17. Template Method
+	18. Command
+	19. Mediator
+	20. Observer
+	21. Strategy
+	22. Visitors
